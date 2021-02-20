@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+
+.main-image {
+  background-image: url(backgroundprimero.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo-and-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 4.5rem;
+}
+
+.menu {
+  font-size: 1.5rem;
+}
+
+.menu__item {
+  color: white;
+  text-decoration: none;
+  margin-left: 3rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+.menu__item:hover {
+  color: #e3aad1;
+}
+
+#buttonwhite {
+  color: #e3aad1;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 5rem;
+}
+
+#buttonwhite:hover {
+  background-color: #f8d7b5;
+}
+
+.title {
+  margin-top: 14rem;
+  margin-left: 10rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.title__bold {
+  font-weight: bolder;
+}
+
+.title__light {
+  font-weight: lighter;
+}
+
+.title__description {
+  margin-top: 1.5rem;
+  width: 26.5rem;
+  line-height: 2em;
+  text-shadow: 4px 4px 2px #969696;
+}
+/*# sourceMappingURL=styles.css.map */
