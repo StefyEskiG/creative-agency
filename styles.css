@@ -55,23 +55,56 @@ html {
 }
 
 .title {
-  margin-top: 14rem;
+  margin-top: 23rem;
   margin-left: 10rem;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .title__bold {
   font-weight: bolder;
+  font-size: 3rem;
 }
 
 .title__light {
   font-weight: lighter;
+  font-size: 2.5rem;
 }
 
 .title__description {
   margin-top: 1.5rem;
-  width: 26.5rem;
+  font-size: 1.2rem;
+  width: 32.5rem;
   line-height: 2em;
   text-shadow: 4px 4px 2px #969696;
+}
+
+.margin-button {
+  margin: 3.5rem;
+}
+
+.buttonpink {
+  color: white;
+  text-decoration: none;
+  background: #e3aad1;
+  background: radial-gradient(circle, #e3aad1 0%, #f8d7b5 100%);
+  border-radius: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.buttonpink:hover {
+  color: #f8d7b5;
+}
+
+.main-footer-title {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.main-footer-title__description {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

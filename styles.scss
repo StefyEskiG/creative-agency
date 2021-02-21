@@ -51,20 +51,56 @@ html {
 }
 
 .title {
-  margin-top: 14rem;
+  margin-top: 23rem;
   margin-left: 10rem;
+
   font-family: $first-font-family;
 
   &__bold {
     font-weight: bolder;
+    font-size: 3rem;
   }
   &__light {
     font-weight: lighter;
+    font-size: 2.5rem;
   }
   &__description {
     margin-top: 1.5rem;
-    width: 26.5rem;
+    font-size: 1.2rem;
+    width: 32.5rem;
     line-height: 2em;
     text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  }
+}
+
+.margin-button {
+  margin: 3.5rem;
+}
+.buttonpink {
+  color: white;
+  text-decoration: none;
+  background: rgb(227, 170, 209);
+  background: radial-gradient(
+    circle,
+    rgba(227, 170, 209, 1) 0%,
+    rgba(248, 215, 181, 1) 100%
+  );
+  border-radius: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  &:hover {
+    color: $second-color;
+  }
+}
+
+.main-footer-title {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10rem;
+  &__description {
+    text-align: center;
   }
 }
