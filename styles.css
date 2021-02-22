@@ -107,4 +107,75 @@ html {
 .main-footer-title__description {
   text-align: center;
 }
+
+.second-image {
+  background-image: url(./images/secondimage.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.services {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.services__title {
+  text-align: center;
+  margin-top: 17rem;
+}
+
+.services__description {
+  margin-top: 3rem;
+  width: 50rem;
+  margin-left: 30rem;
+  text-align: center;
+  color: #919ab4;
+}
+
+.services__items {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10rem;
+}
+
+.services__item {
+  margin-left: 8rem;
+}
+
+.services__icon {
+  margin-left: 12.5rem;
+}
+
+.services__icon-description {
+  text-align: justify;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  width: 21.5rem;
+  color: #919ab4;
+  padding-left: 7rem;
+  line-height: 2em;
+}
+
+.services__icon-title {
+  text-align: center;
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+
+.services__icon-learnmore {
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+
+p {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
