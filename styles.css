@@ -152,6 +152,7 @@ html {
 
 .services__icon {
   margin-left: 12.5rem;
+  margin-top: 3rem;
 }
 
 .services__icon-description {
@@ -168,6 +169,7 @@ html {
   text-align: center;
   margin-left: 6rem;
   margin-top: 3rem;
+  color: #e3aad1;
 }
 
 .services__icon-learnmore {
@@ -175,7 +177,64 @@ html {
   margin-top: 3rem;
 }
 
-p {
+/* p {
   text-align: center;
+} */
+.third-image {
+  background-image: url(./images/thridimage.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 10rem;
+}
+
+.third-section {
+  margin-left: 45rem;
+  margin-top: 10rem;
+}
+
+.third-section__title {
+  padding-top: 5rem;
+  width: 35rem;
+  text-align: start;
+}
+
+.third-section__button {
+  margin-top: 4rem;
+  padding-left: 8rem;
+}
+
+.third-section__items {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-section__icon {
+  margin-left: 15.5rem;
+  margin-top: 3rem;
+}
+
+.third-section__icon-title {
+  text-align: center;
+  margin-left: 7.5rem;
+  margin-top: 2rem;
+  color: #919ab4;
+}
+
+.third-section__icon-description {
+  text-align: justify;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  width: 33.5rem;
+  padding-left: 10rem;
+  line-height: 2em;
 }
 /*# sourceMappingURL=styles.css.map */

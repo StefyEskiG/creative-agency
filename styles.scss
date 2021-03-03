@@ -141,6 +141,7 @@ html {
   }
   &__icon {
     margin-left: 12.5rem;
+    margin-top: 3rem;
     &-description {
       text-align: justify;
       margin-top: 3rem;
@@ -154,6 +155,7 @@ html {
       text-align: center;
       margin-left: 6rem;
       margin-top: 3rem;
+      color: $first-color;
     }
     &-learnmore {
       margin-left: 10rem;
@@ -162,6 +164,58 @@ html {
   }
 }
 
-p {
+/* p {
   text-align: center;
+} */
+
+.third-image {
+  background-image: url(./images/thridimage.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 10rem;
+}
+
+.third-section {
+  margin-left: 45rem;
+  margin-top: 10rem;
+
+  &__title {
+    padding-top: 5rem;
+    width: 35rem;
+    text-align: start;
+  }
+  &__button {
+    margin-top: 4rem;
+    padding-left: 8rem;
+  }
+  &__items {
+    background-color: white;
+    display: flex;
+    margin-top: 18rem;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-left: 15.5rem;
+    margin-top: 3rem;
+    &-title {
+      text-align: center;
+      margin-left: 7.5rem;
+      margin-top: 2rem;
+      color: #919ab4;
+    }
+    &-description {
+      text-align: justify;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+
+      width: 33.5rem;
+
+      padding-left: 10rem;
+      line-height: 2em;
+    }
+  }
 }
